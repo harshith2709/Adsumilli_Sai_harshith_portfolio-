@@ -28,7 +28,7 @@
         <h2>> Player_Profile</h2>
         <div class="about-grid">
             <div class="photo-box">
-                <img src="images/profile.jpg" alt="Profile Photo">
+                <img src="E:\Portfolio\Photos">
             </div>
             <div class="bio">
                 <p> Hello, I'm a Final-year Computer Science & Game Development student at ICAT Design and Media College.</p>
@@ -40,10 +40,15 @@
     <section id="skills" class="container">
         <h2>> Inventory (Skills)</h2>
         <ul class="pixel-list">
-            <li>Unreal Engine 5.7</li>
-            <li>C++ / Blueprints</li>
-            <li>Digital Art & Character Design</li>
-            <li>HTML & CSS</li>
+            <li>Unreal Engine</li>
+            <li>Unity 2D/3D</li>
+            <li>3D Modelling basics</li>
+            <li>The MDA Framework</li>
+	    <li>Level Design & Player Flow<li>
+	    <li>Documentation<li>
+	    <li>Analytical Problem Solving<li>
+	    <li>Collaborative Communication<li>
+	    <li>Project Management<li>
         </ul>
     </section>
 
