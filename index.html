@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dev Portfolio | Player 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Inventory</a></li>
+            <li><a href="#projects">Quests</a></li>
+            <li><a href="#resume">Save Data</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>LEVEL 1: GAME DEVELOPER</h1>
+        <p class="blink">Press Start...</p>
+    </header>
+
+    <section id="about" class="container">
+        <h2>> Player_Profile</h2>
+        <div class="about-grid">
+            <div class="photo-box">
+                <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+            <div class="bio">
+                <p>Hello, World! I'm a third-year Computer Science & Game Development student at ICAT Design and Media College.</p>
+                <p>From writing camera-locking mechanics to creating digital art and character designs, I specialize in bringing immersive interactive worlds to life.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>> Inventory (Skills)</h2>
+        <ul class="pixel-list">
+            <li>Unreal Engine 5.7</li>
+            <li>C++ / Blueprints</li>
+            <li>Digital Art & Character Design</li>
+            <li>HTML & CSS</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>> Quest Log (Projects)</h2>
+        <div class="project-card">
+            <h3>Camera Lock System</h3>
+            <p>A dynamic camera tracking system built in Unreal Engine 5.7 to ensure smooth player focus during high-action combat sequences.</p>
+            <a href="#" class="btn">View Source</a>
+        </div>
+        <div class="project-card">
+            <h3>Character Concept Art</h3>
+            <p>A digital art portfolio showcasing original character designs, turnarounds, and environment sketches.</p>
+            <a href="#" class="btn">View Gallery</a>
+        </div>
+    </section>
+
+    <section id="resume" class="container text-center">
+        <h2>> Save Data (Resume)</h2>
+        <p>Download my stats and experience.</p>
+        <a href="your_resume.pdf" target="_blank" class="btn">Download .PDF</a>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>> Comm_Link (Contact)</h2>
+        <form action="#" method="POST" class="retro-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Game Dev Portfolio. GAME OVER.</p>
+    </footer>
+
+</body>
+</html>
