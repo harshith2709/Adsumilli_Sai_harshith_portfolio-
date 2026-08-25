@@ -31,8 +31,8 @@
                 <img src="images/profile.jpg" alt="Profile Photo">
             </div>
             <div class="bio">
-                <p>Hello, World! I'm a third-year Computer Science & Game Development student at ICAT Design and Media College.</p>
-                <p>From writing camera-locking mechanics to creating digital art and character designs, I specialize in bringing immersive interactive worlds to life.</p>
+                <p> Hello, I'm a Final-year Computer Science & Game Development student at ICAT Design and Media College.</p>
+                <p>I Design simple game with additive gameplay with player returning to get more of the gameplay and Develop them. Form my childhood my love to video games is a lot and that love turned in to passion and made me persuasive this career as a game designer and developer.</p>
             </div>
         </div>
     </section>
